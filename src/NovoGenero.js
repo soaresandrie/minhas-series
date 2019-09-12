@@ -3,7 +3,7 @@ import axios from 'axios'
 import { Redirect } from 'react-router-dom'
 
 const NovoGenero = () => {
-    const [name, setName] = useState()
+    const [name, setName] = useState('')
     const [success, setSuccess] = useState(false)
 
     const onChange = evt => {
@@ -21,9 +21,7 @@ const NovoGenero = () => {
     }
 
     if(success) {
-       return (
-            <Redirect to='/generos' />
-        )
+       return <Redirect to='/generos' />
     }
 
     return (

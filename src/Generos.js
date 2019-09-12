@@ -36,7 +36,7 @@ const renderizalinha = record => {
 }
 
 if (data.length === 0) {
-  return(
+  return (
     <div className='container'>
       <h1>Genêros</h1>
       <div className='alert alert-warning' role='alert'>
@@ -67,7 +67,6 @@ return (
         {data.map(renderizalinha)}
       </tbody>
     </table>
-    
   </div>
   )
 }

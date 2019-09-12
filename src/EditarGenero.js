@@ -42,7 +42,7 @@ const EditarGenero = ({ match }) => {
             <h1>Editar Genêro</h1>
             <form>
                 <div className='form-group'>
-                    <label htmlFor='name'>Nome:</label>
+                    <label htmlFor='name'>Nome</label>
                     <input type='text' value={name} onChange={onChange} className='form-control' id='name' placeholder='Nome do Genêro' />
                 </div>
                 <button type='button' onClick={save} className='btn btn-primary'>Salvar</button>
