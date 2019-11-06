@@ -39,6 +39,7 @@ if (data.length === 0) {
   return (
     <div className='container'>
       <h1>Genêros</h1>
+      <div><Link to='/generos/novo' className='btn btn-primary'>Novo genêro</Link></div>
       <div className='alert alert-warning' role='alert'>
         Você não possui genêros criados.
       </div>
